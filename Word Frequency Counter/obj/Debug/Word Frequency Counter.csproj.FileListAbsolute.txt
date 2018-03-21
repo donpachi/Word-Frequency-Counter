@@ -1,7 +1,0 @@
-C:\Users\Aaron\Documents\Projects\Word Frequency Counter\Word Frequency Counter\bin\Debug\Word Frequency Counter.exe.config
-C:\Users\Aaron\Documents\Projects\Word Frequency Counter\Word Frequency Counter\bin\Debug\Word Frequency Counter.exe
-C:\Users\Aaron\Documents\Projects\Word Frequency Counter\Word Frequency Counter\bin\Debug\Word Frequency Counter.pdb
-C:\Users\Aaron\Documents\Projects\Word Frequency Counter\Word Frequency Counter\obj\Debug\Word Frequency Counter.csprojResolveAssemblyReference.cache
-C:\Users\Aaron\Documents\Projects\Word Frequency Counter\Word Frequency Counter\obj\Debug\Word Frequency Counter.csproj.CoreCompileInputs.cache
-C:\Users\Aaron\Documents\Projects\Word Frequency Counter\Word Frequency Counter\obj\Debug\Word Frequency Counter.exe
-C:\Users\Aaron\Documents\Projects\Word Frequency Counter\Word Frequency Counter\obj\Debug\Word Frequency Counter.pdb

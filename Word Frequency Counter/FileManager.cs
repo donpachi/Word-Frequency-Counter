@@ -21,6 +21,19 @@ namespace Word_Frequency_Counter
             return fileStream != null ? true : false;
         }
 
+        internal string MapToFile(IReadOnlyDictionary<string, int> readOnlyDictionary)
+        {
+            string path = @"./output.txt";
+            using (StreamWriter file = new StreamWriter(path))
+            {
+                foreach (KeyValuePair<string, int> entry in readOnlyDictionary)
+                {
+                    file.WriteLine("Word: {0} \t\t\t\t Count: {1}", entry.Key, entry.Value);
+                }
+            }
+            return path;
+        }
+
         public void CloseStream()
         {
             try

@@ -15,11 +15,13 @@ namespace Word_Frequency_Counter
             if (file.FileFound())
             {
                 TextProcessor textProcessor = new TextProcessor(file.FileStream.ReadToEnd());
-                file.CloseStream();
+                
                 Console.Write("Word count: {0}", textProcessor.WordLongCount);
                 Console.ReadLine();
-                Console.Write("Word mapping output to file");
+                string path = file.MapToFile(textProcessor.GetWordMapping());
+                Console.Write("Word mapping output to file " + path);
                 Console.ReadLine();
+                file.CloseStream();
             }
             else
             {

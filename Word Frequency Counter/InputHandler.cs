@@ -26,7 +26,8 @@ namespace Word_Frequency_Counter
                 {
                     Console.Write("Filetype not supported, supported types are: ");
                     foreach (string s in supportedFileTypes) Console.Write(s);
-                    Console.WriteLine();
+                    Console.Write("\nEnter filename: ");
+                    str = Console.ReadLine();
                 }
                 return str;
 
